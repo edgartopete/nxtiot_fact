@@ -1,0 +1,33 @@
+/**
+* 
+* app.css
+*
+* This file containg all the styling for the vue app component. 
+*
+* [created] : 11/02/2019
+* [created by]: ETF
+*/
+
+/*set up font, color and margin for the app div*/
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+/*linear gradiant for the title div*/
+.create-post{
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  padding: 2px;
+  text-align:center;
+}
+
+/*Fix the position of the toast to the bottom-letf*/
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 10%;
+  left:80%;  
+}
